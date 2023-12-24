@@ -1,0 +1,14 @@
+/* style.css */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tạo 3 cột bằng nhau */
+    gap: 10px; /* Khoảng cách giữa các phần tử */
+}
+
+.item {
+    background-color: #0074d9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+}
