@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ví dụ về HTML Media Elements</title>
+</head>
+
+<body>
+    <h1>Phần trình diễn các phần tử Media trong HTML</h1>
+
+    <h2>Video Element (Thẻ Video)</h2>
+    <video width="400" controls>
+        <source src="https://www.example.com/video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <h2>Audio Element (Thẻ Audio)</h2>
+    <audio controls>
+        <source src="https://www.example.com/audio.mp3" type="audio/mpeg">
+        Your browser does not support the audio tag.
+    </audio>
+
+    <h2>Picture Element (Thẻ Picture)</h2>
+    <picture>
+        <source media="(min-width: 768px)" srcset="https://www.example.com/large-image.jpg">
+        <source media="(min-width: 400px)" srcset="https://www.example.com/medium-image.jpg">
+        <img src="https://www.example.com/small-image.jpg" alt="Hình ảnh mô tả">
+    </picture>
+
+    <h2>IFrame Element (Thẻ IFrame)</h2>
+    <iframe width="400" height="300" src="https://www.youtube.com/embed/36Hcx7kRYDg" frameborder="0"
+        allowfullscreen></iframe>
+
+    <h2>Embed Element (Thẻ Embed)</h2>
+    <embed src="https://www.example.com/embed-video.mp4" width="400" height="300" autoplay="false">
+
+    <h2>Object Element (Thẻ Object)</h2>
+    <object data="https://www.example.com/object-video.mp4" width="400" height="300">
+        <param name="autoplay" value="false">
+        <param name="loop" value="false">
+        Your browser does not support the object tag.
+    </object>
+
+</body>
+
+</html>
