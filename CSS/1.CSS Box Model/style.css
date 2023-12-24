@@ -1,0 +1,29 @@
+/* style.css */
+.box {
+    width: 200px;
+    height: 100px;
+    padding: 20px;
+    border: 2px solid #0074d9; /* Màu viền */
+    margin: 30px;
+    background-color: #f0f0f0; /* Màu nền */
+    color: #333; /* Màu chữ */
+}
+
+/* Mô phỏng các phần của Box Model */
+.content {
+    background-color: #f0f0f0; /* Màu nền nội dung */
+}
+
+.padding {
+    background-color: #f8e71c; /* Màu nền đệm */
+}
+
+.border {
+    background-color: #ff4136; /* Màu nền viền */
+    border: 2px solid #000; /* Màu viền */
+}
+
+.margin {
+    background-color: #2ecc40; /* Màu nền ngoại viền */
+    margin: 30px;
+}
