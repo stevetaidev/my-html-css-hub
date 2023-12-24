@@ -1,0 +1,87 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #0074d9;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột với tỉ lệ 1:1:1 */
+    gap: 20px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.column h2 {
+    color: #0074d9;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Sử dụng Media Queries để thay đổi bố cục khi màn hình có kích thước nhỏ hơn 600px */
+@media (max-width: 600px) {
+    main {
+        grid-template-columns: repeat(1, 1fr); /* 1 cột cho thiết bị nhỏ hơn 600px */
+    }
+}
