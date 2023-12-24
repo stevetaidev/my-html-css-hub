@@ -1,0 +1,30 @@
+/* style.css */
+.container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.red {
+    background-color: #ff4136;
+    float: left; /* Phần tử sẽ nổi bên trái */
+}
+
+.green {
+    background-color: #2ecc40;
+    float: left; /* Phần tử sẽ nổi bên trái */
+}
+
+.blue {
+    background-color: #0074d9;
+    float: left; /* Phần tử sẽ nổi bên trái */
+}
