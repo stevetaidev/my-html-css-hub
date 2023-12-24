@@ -1,0 +1,38 @@
+/* style.css */
+.container {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+}
+
+.static {
+    position: static;
+}
+
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.absolute {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+}
